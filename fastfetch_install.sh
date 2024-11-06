@@ -28,7 +28,7 @@ install_fastfetch() {
     curl -o "${DEB_FILE}" -SL "${DOWNLOAD_URL}"
 
     echo "Installing fastfetch..."
-    sudo apt install -y "${DEB_FILE}"
+    sudo apt install -y "./${DEB_FILE}"
 }
 
 cleanup() {
