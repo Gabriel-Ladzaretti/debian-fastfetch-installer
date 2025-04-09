@@ -3,7 +3,7 @@
 set -euo pipefail
 
 # renovate: datasource=github-releases depName=fastfetch-cli/fastfetch
-FASTFETCH_VERSION=2.40.3
+FASTFETCH_VERSION=2.40.4
 
 ARCH="${1:-"amd64"}"
 DOWNLOAD_URL="https://github.com/fastfetch-cli/fastfetch/releases/download/${FASTFETCH_VERSION}/fastfetch-linux-${ARCH}.deb"
