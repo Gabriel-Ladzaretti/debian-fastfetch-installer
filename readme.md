@@ -22,12 +22,6 @@ A Bash script for installing the latest version of `fastfetch`.
     cd debian-fastfetch-installer
     ```
 
-1. Make the script executable:
-
-    ```sh
-    chmod +x install_fastfetch.sh
-    ```
-
 1. Run the script with sudo:
 
     ```sh
